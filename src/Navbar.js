@@ -3,6 +3,7 @@ import { Link, Route } from "react-router-dom";
 import HamburgerMenu from "react-hamburger-menu";
 import Navbar from "react-bootstrap/NavBar";
 import Nav from "react-bootstrap/Nav";
+import Resume from "./resume.pdf";
 import "./Navbar.css";
 
 export default function NavigationBar() {
@@ -30,16 +31,21 @@ export default function NavigationBar() {
 
   let displayMobileNavBar = () => {
     return (
-      <div className="real-nav">
-        <ul className="nav navbar-nav">
-          <li>
-            <Link to="/">Info</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-        </ul>
-      </div>
+      <Navbar className="navbar-mobile">
+        <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
+          <Nav className="navContent-mobile">
+            <Link to="/projects" className="NavLink-mobile">
+              Projects
+            </Link>
+            <Link to="/journal" className="NavLink-mobile">
+              Journal
+            </Link>
+            <Link to={Resume} target="newTab" className="NavLink-mobile">
+              Resume
+            </Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     );
   };
 
@@ -51,11 +57,14 @@ export default function NavigationBar() {
         </Link> */}
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav className="navContent">
-            <Link to="/" className="NavLink">
-              Home
-            </Link>
             <Link to="/projects" className="NavLink">
               Projects
+            </Link>
+            <Link to="/journal" className="NavLink">
+              Journal
+            </Link>
+            <Link to={Resume} target="newTab" className="NavLink">
+              Resume
             </Link>
           </Nav>
         </Navbar.Collapse>
