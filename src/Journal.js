@@ -38,13 +38,33 @@ import vegas13 from "./images/journal/daynvegas/vegas13.jpg";
 import vegas14 from "./images/journal/daynvegas/vegas14.jpg";
 import vegas15 from "./images/journal/daynvegas/vegas15.jpg";
 
+import jp1 from "./images/journal/jp/jp1.jpeg";
+import jp2 from "./images/journal/jp/jp2.jpeg";
+import jp3 from "./images/journal/jp/jp3.jpeg";
+import jp4 from "./images/journal/jp/jp4.jpeg";
+import jp5 from "./images/journal/jp/jp5.jpeg";
+import jp6 from "./images/journal/jp/jp6.jpeg";
+import jp7 from "./images/journal/jp/jp7.jpeg";
+import jp8 from "./images/journal/jp/jp8.jpeg";
+import jp9 from "./images/journal/jp/jp9.jpeg";
+import jp10 from "./images/journal/jp/jp10.jpeg";
+import jp11 from "./images/journal/jp/jp11.jpeg";
+import jp12 from "./images/journal/jp/jp12.jpeg";
+import jp13 from "./images/journal/jp/jp13.jpeg";
+import jp14 from "./images/journal/jp/jp14.jpeg";
+import jp15 from "./images/journal/jp/jp15.jpeg";
+import jp16 from "./images/journal/jp/jp16.jpeg";
+import jp17 from "./images/journal/jp/jp17.jpeg";
+import jp18 from "./images/journal/jp/jp18.jpeg";
+import jp19 from "./images/journal/jp/jp19.jpeg";
+
 export default function Journal() {
   return (
     <div className="journal-page">
       <div className="journal-entry">
         <div className="entry-details">
           <h1>LONDON & EDINBURGH</h1>
-          <h2>MARCH 2020</h2>
+          <h2>03.2020</h2>
         </div>
         <div className="entry-photos">
           <img src={castle} alt="castle" className="photo" />
@@ -56,8 +76,8 @@ export default function Journal() {
       </div>
       <div className="journal-entry">
         <div className="entry-details">
-          <h1>San Francisco</h1>
-          <h2>January 2020</h2>
+          <h1>SAN FRANCISCO</h1>
+          <h2>01.2020</h2>
         </div>
         <div className="entry-photos">
           <img src={sf1} alt="sf1" className="photo" />
@@ -70,8 +90,8 @@ export default function Journal() {
       </div>
       <div className="journal-entry">
         <div className="entry-details">
-          <h1>Los Angeles</h1>
-          <h2>January 2020</h2>
+          <h1>LOS ANGELES</h1>
+          <h2>01.2020</h2>
         </div>
         <div className="entry-photos">
           <img src={la1} alt="la1" className="photo" />
@@ -85,8 +105,8 @@ export default function Journal() {
       </div>
       <div className="journal-entry">
         <div className="entry-details">
-          <h1>Day N Vegas</h1>
-          <h2>November 2019</h2>
+          <h1>DAY N VEGAS</h1>
+          <h2>11.2019</h2>
         </div>
         <div className="entry-photos">
           <img src={vegas1} alt="vegas1" className="photo" />
@@ -104,6 +124,33 @@ export default function Journal() {
           <img src={vegas13} alt="vegas13" className="photo" />
           <img src={vegas14} alt="vegas14" className="photo" />
           <img src={vegas15} alt="vegas15" className="photo" />
+        </div>
+      </div>
+      <div className="journal-entry">
+        <div className="entry-details">
+          <h1>JAPAN</h1>
+          <h2>05.2019</h2>
+        </div>
+        <div className="entry-photos">
+          <img src={jp1} alt="jp1" className="photo" />
+          <img src={jp2} alt="jp2" className="photo" />
+          <img src={jp3} alt="jp3" className="photo" />
+          <img src={jp4} alt="jp4" className="photo" />
+          <img src={jp5} alt="jp5" className="photo" />
+          <img src={jp6} alt="jp6" className="photo" />
+          <img src={jp7} alt="jp7" className="photo" />
+          <img src={jp8} alt="jp8" className="photo" />
+          <img src={jp9} alt="jp9" className="photo" />
+          <img src={jp10} alt="jp10" className="photo" />
+          <img src={jp11} alt="jp11" className="photo" />
+          <img src={jp12} alt="jp12" className="photo" />
+          <img src={jp13} alt="jp13" className="photo" />
+          <img src={jp14} alt="jp14" className="photo" />
+          <img src={jp15} alt="jp15" className="photo" />
+          <img src={jp16} alt="jp16" className="photo" />
+          <img src={jp17} alt="jp17" className="photo" />
+          <img src={jp18} alt="jp18" className="photo" />
+          <img src={jp19} alt="jp19" className="photo" />
         </div>
       </div>
     </div>
