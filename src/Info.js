@@ -6,8 +6,8 @@ export default function Info() {
   return (
     <div className="main-paragraph">
       <p className="intro-content">
-        Nico Raymundo is a student from the San Francisco Bay Area, currently
-        studying computer science at{" "}
+        Nico Raymundo is a developer and photographer from the San Francisco Bay
+        Area, currently at{" "}
         <a class="intext-hyperlink" href="http://lmu.edu" target="_blank">
           Loyola Marymount University
         </a>
