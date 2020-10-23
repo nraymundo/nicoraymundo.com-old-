@@ -1,5 +1,5 @@
 import React from "react";
-import "./Projects2.css";
+import "./Projects.css";
 
 import pivot from "./images/projects/pivot.jpg";
 import nfa from "./images/projects/nfa.jpg";
