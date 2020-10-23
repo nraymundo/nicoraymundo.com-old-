@@ -47,7 +47,7 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      <div className="container">
+      {/* <div className="container">
         <img src={soccer} alt="soccer" className="project-img" />
         <div className="middle">
           <div className="text">
@@ -84,7 +84,7 @@ export default function Projects() {
             </a>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
