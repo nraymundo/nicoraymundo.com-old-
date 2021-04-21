@@ -38,7 +38,7 @@ export default function Info() {
           <p>
             Outside of school, I enjoy playing sports with friends, taking
             {" "}
-            <a class="about-intext-hyperlink" href="http://localhost:3000/journal">
+            <a class="about-intext-hyperlink" href="https://nicoraymundo.com/journal">
               photos
             </a>
             {" "} around the city, listening to {" "}

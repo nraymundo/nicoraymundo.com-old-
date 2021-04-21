@@ -16,9 +16,8 @@ export default function Entry(props) {
           <img
             src={image}
             alt={index}
-            className={`photo image-${imageLoaded ? 'visible' : 'hidden'
-              }`}
-            onLoad={() => setImageLoaded(true)}
+            className={'photo image-visible'}
+          // onLoad={() => setImageLoaded(true)}
           />
         ))}
       </div>
