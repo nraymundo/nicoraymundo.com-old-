@@ -174,8 +174,5 @@
 .NavLink:hover {
   margin-bottom: -2px !important;
   text-decoration: none;
-  /* color: #848484; */
-  /* padding-bottom: 10px; */
   border-bottom: 2px solid #8963BA;
-  /* border-bottom: 2px solid #c09891; */
 }

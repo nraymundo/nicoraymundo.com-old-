@@ -326,7 +326,6 @@
 }
 
 .social:hover:after {
-  opacity: 1;
   transform: translate(3px,-3px);
   -webkit-transform: translate(3px,-3px);
   color: #8963BA;
