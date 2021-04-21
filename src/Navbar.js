@@ -1,17 +1,38 @@
 import React, { useState, useCallback } from "react";
-import { Link, Route } from "react-router-dom";
+import { Link } from "react-router-dom";
 import HamburgerMenu from "react-hamburger-menu";
 import Navbar from "react-bootstrap/NavBar";
 import Nav from "react-bootstrap/Nav";
 import Resume from "./resume.pdf";
 import "./Navbar.css";
 
+function debounce(fn, ms) {
+  let timer
+  return _ => {
+    clearTimeout(timer)
+    timer = setTimeout(_ => {
+      timer = null
+      fn.apply(this, arguments)
+    }, ms)
+  };
+}
+
 export default function NavigationBar() {
   let [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [dimensions, setDimensions] = React.useState({
+    height: window.innerHeight,
+    width: window.innerWidth
+  })
 
   const memoizedHandleClick = useCallback(() => {
     setIsMenuOpen(!isMenuOpen);
   });
+
+  function closeHamburgerMenu() {
+    if (isMenuOpen) {
+      setIsMenuOpen(!isMenuOpen)
+    }
+  }
 
   let displayHamburgerMenu = () => {
     return (
@@ -34,13 +55,13 @@ export default function NavigationBar() {
       <Navbar className="navbar-mobile">
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav className="navContent-mobile">
-            <Link to="/projects" className="NavLink-mobile">
+            <Link to="/projects" className="NavLink-mobile" onClick={closeHamburgerMenu}>
               Projects
             </Link>
-            <Link to="/journal" className="NavLink-mobile">
+            <Link to="/journal" className="NavLink-mobile" onClick={closeHamburgerMenu}>
               Journal
             </Link>
-            <Link to={Resume} target="newTab" className="NavLink-mobile">
+            <Link to={Resume} target="newTab" className="NavLink-mobile" onClick={closeHamburgerMenu}>
               Resume
             </Link>
           </Nav>
@@ -52,9 +73,6 @@ export default function NavigationBar() {
   let displayNavBar = () => {
     return (
       <Navbar>
-        {/* <Link to="/" className="logo">
-          N/CO
-        </Link> */}
         <Navbar.Collapse className="justify-content-end" id="basic-navbar-nav">
           <Nav className="navContent">
             <Link to="/projects" className="NavLink">
@@ -72,13 +90,28 @@ export default function NavigationBar() {
     );
   };
 
+  React.useEffect(() => {
+    const debouncedHandleResize = debounce(function handleResize() {
+      setDimensions({
+        height: window.innerHeight,
+        width: window.innerWidth
+      })
+    }, 500)
+
+    window.addEventListener('resize', debouncedHandleResize)
+
+    return _ => {
+      window.removeEventListener('resize', debouncedHandleResize)
+
+    }
+  })
+
   return (
     <div className="nav-content">
       <div className="navbar">
-        <Link to="/" className="logo">
+        <Link to="/" className="logo" onClick={closeHamburgerMenu}>
           N/CO
         </Link>
-        {/* <button onClick={() => console.log(window.innerWidth)}>Hi</button> */}
         {window.innerWidth > 750 ? displayNavBar() : displayHamburgerMenu()}
       </div>
       <div className="content">{isMenuOpen ? displayMobileNavBar() : null}</div>
