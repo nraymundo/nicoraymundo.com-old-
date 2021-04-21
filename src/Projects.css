@@ -1,25 +1,20 @@
 .projects-page {
   width: 90%;
-  height: 100vh;
+  height: 100%;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  margin-top: 8% !important;
-  justify-content: center;
+  flex-direction: column;
   margin: auto;
+  align-items: center;
 }
 
-.container {
-  position: relative;
-  width: 25%;
-  height: 35%;
-  min-width: 250px;
-  max-width: 350px;
-  min-height: 300px;
-  max-height: 350px;
-  margin: 40px !important;
-  background-color: white;
+.cards-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 8%;
 }
+
 
 .project-img {
   width: 99%;
@@ -79,7 +74,11 @@
   height: auto;
 }
 
-.repo {
+/* .repo {
   width: 100%;
   height: auto;
+} */
+
+.repo:hover {
+  color: orange;
 }

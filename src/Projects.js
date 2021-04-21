@@ -1,51 +1,46 @@
 import React from "react";
 import "./Projects.css";
 
-import pivot from "./images/projects/pivot.jpg";
-import nfa from "./images/projects/nfa.jpg";
-import soccer from "./images/projects/soccer.jpg";
-import github from "./images/projects/github.png";
-import cop from "./images/projects/cop.png";
+import ProjectCard from './components/ProjectCard'
 
 export default function Projects() {
+  const info = [
+    {
+      name: 'Pivot',
+      description: 'Uses aspects of compilers and interpreters to create a custom programming language featuring a custom built compiler with semantic analysis, code generation, and code optimization. Also features an accompanying website.',
+      languages: ['JavaScript', 'Ohm', 'React'],
+      github: 'https://github.com/wdibi/Pivot',
+    },
+    {
+      name: 'NFA Simulator',
+      description: 'Implements fundamentals of theory of computation to simulate the construction and querying of nondeterministic finite automata.',
+      languages: ['Python'],
+      github: 'https://github.com/nraymundo/cmsi385',
+    },
+    {
+      name: 'Next-Word Prediction Language Model',
+      description: 'Uses natural language processing to develop a Feed-Forward Neural Network model that was tested on a pre-trained GPT-2 model on next word prediction',
+      languages: ['Python', 'GPT-2'],
+      github: 'https://github.com/lmu-mandy/project-jnw',
+    },
+    {
+      name: 'nicoraymundo.com',
+      description: 'A personal/portfolio website built using ReactJS.',
+      languages: ['HTML', 'CSS', 'JavaScript', 'React'],
+      github: 'https://github.com/nraymundo/website-revamp',
+    },
+  ]
+
   return (
     <div className="projects-page">
-      <div className="container">
-        <img src={pivot} alt="pivot" className="project-img" />
-        <div className="middle">
-          <div className="text">
-            <h1>Pivot</h1>
-            <p>
-              A custom programming language using a custom compiler with
-              semantic analysis, code generation, and code optimization.
-            </p>
-            <a
-              href="https://github.com/wdibi/Pivot"
-              target="_blank"
-              className="repo-container"
-            >
-              <img src={github} alt="pivot-repo" className="repo"></img>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="container">
-        <img src={nfa} alt="nfa" className="project-img" />
-        <div className="middle">
-          <div className="text">
-            <h1>NFA Simulator</h1>
-            <p>
-              A nondeterministic finite automata simulator built with Python.
-            </p>
-            <a
-              href="https://github.com/nraymundo/cmsi385"
-              target="_blank"
-              className="repo-container"
-            >
-              <img src={github} alt="nfa-repo" className="repo"></img>
-            </a>
-          </div>
-        </div>
+      <div className="cards-container">
+        {info && (
+          info.map((project) => (
+            <ProjectCard
+              projectInfo={project}
+            />
+          ))
+        )}
       </div>
     </div>
   );
