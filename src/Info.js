@@ -36,12 +36,8 @@ export default function Info() {
             Computer Science department.
           </p>
           <p>
-            Outside of school, I enjoy playing sports with friends, taking
-            {" "}
-            <a class="about-intext-hyperlink" href="https://nicoraymundo.com/journal">
-              photos
-            </a>
-            {" "} around the city, listening to {" "}
+            Outside of school, I enjoy playing sports with friends, taking photos around the city,
+            listening to {" "}
             <a class="about-intext-hyperlink" href="https://music.apple.com/profile/nicoraymundo" target="_blank">
               music
             </a>

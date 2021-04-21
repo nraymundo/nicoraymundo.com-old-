@@ -34,13 +34,12 @@ export default function Projects() {
   return (
     <div className="projects-page">
       <div className="cards-container">
-        {info && (
-          info.map((project) => (
-            <ProjectCard
-              projectInfo={project}
-            />
-          ))
-        )}
+        {info.map((project) => (
+          <ProjectCard
+            projectInfo={project}
+          />
+        ))
+        }
       </div>
     </div>
   );
