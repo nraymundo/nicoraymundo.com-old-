@@ -18,7 +18,7 @@ export default function Info() {
         <div className="about">
           <p>ABOUT</p>
           <p>
-            I am currently studying Computer Science at Loyola Marymount
+            I am currently a senior studying Computer Science at Loyola Marymount
             University in Los Angeles, CA. I was born and raised in San Jose, CA
             but decided to migrate south to further my education. Living in Los
             Angeles has given me an opportunity to try new things, visit new
@@ -37,9 +37,16 @@ export default function Info() {
           </p>
           <p>
             Outside of school, I enjoy playing sports with friends, taking
-            photos around the city, working on my side projects, or going on
-            runs around my neighborhood with my dog. I'd love to get to know
-            you, so don't hesitate to get in touch!
+            {" "}
+            <a class="about-intext-hyperlink" href="http://localhost:3000/journal">
+              photos
+            </a>
+            {" "} around the city, listening to {" "}
+            <a class="about-intext-hyperlink" href="https://music.apple.com/profile/nicoraymundo" target="_blank">
+              music
+            </a>
+            , working on my side projects, or going on runs around my neighborhood with my dog.
+            I'd love to get to know you, so don't hesitate to get in touch!
           </p>
         </div>
         <div className="side-section">

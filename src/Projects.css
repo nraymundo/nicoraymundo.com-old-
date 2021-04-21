@@ -12,9 +12,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 8%;
+  margin-top: 6%;
+  margin-bottom: 6%;
 }
-
 
 .project-img {
   width: 99%;
@@ -72,13 +72,4 @@
 .repo-container {
   width: 20%;
   height: auto;
-}
-
-/* .repo {
-  width: 100%;
-  height: auto;
-} */
-
-.repo:hover {
-  color: orange;
 }

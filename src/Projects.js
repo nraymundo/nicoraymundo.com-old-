@@ -19,7 +19,7 @@ export default function Projects() {
     },
     {
       name: 'Next-Word Prediction Language Model',
-      description: 'Uses natural language processing to develop a Feed-Forward Neural Network model that was tested on a pre-trained GPT-2 model on next word prediction',
+      description: 'Uses natural language processing to develop a Feed-Forward Neural Network model that was tested on a pre-trained GPT-2 model on next word prediction.',
       languages: ['Python', 'GPT-2'],
       github: 'https://github.com/lmu-mandy/project-jnw',
     },
