@@ -43,7 +43,7 @@ export default function NavigationBar() {
         height={17}
         strokeWidth={1}
         rotate={0}
-        color="orange"
+        color="white"
         borderRadius={0}
         animationDuration={0.5}
       />
