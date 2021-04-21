@@ -47,44 +47,6 @@ export default function Projects() {
           </div>
         </div>
       </div>
-      {/* <div className="container">
-        <img src={soccer} alt="soccer" className="project-img" />
-        <div className="middle">
-          <div className="text">
-            <h1>Take That For Data</h1>
-            <p>
-              A custom programming language using a custom compiler with
-              semantic analysis, code generation, and code optimization.
-            </p>
-            <a
-              href="https://github.com/wdibi/Pivot"
-              target="_blank"
-              className="repo-container"
-            >
-              <img src={github} alt="pivot-repo" className="repo"></img>
-            </a>
-          </div>
-        </div>
-      </div>
-      <div className="container">
-        <img src={cop} alt="cop" className="project-img" />
-        <div className="middle">
-          <div className="text">
-            <h1>High Speed Strike</h1>
-            <p>
-              An online video game mimicking a police chase built with CSS/HTML
-              and JavaScript.
-            </p>
-            <a
-              href="https://github.com/nraymundo/High-Speed-Strike"
-              target="_blank"
-              className="repo-container"
-            >
-              <img src={github} alt="strike-repo" className="repo"></img>
-            </a>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }
