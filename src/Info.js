@@ -75,8 +75,6 @@ export default function Info() {
             </p>
           </div>
           <div className="connect">
-            {/* <br />
-            <br /> */}
             <p>CONNECT</p>
             <p>
               <Clipboard

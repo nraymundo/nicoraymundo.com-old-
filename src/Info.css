@@ -215,22 +215,22 @@
 }
 
 .intro-content::selection {
-  color: #0076a5;
+  color: #8963BA;
 }
 
 .intext-hyperlink {
-  color: #ab0c2f;
+  color: white;
   text-decoration: none;
   /* font-family: "Helvetica", sans-serif; */
 }
 
 .intext-hyperlink::selection {
-  color: #0076a5;
+  color: #8963BA;
   /* font-family: "Helvetica", sans-serif; */
 }
 
 .intext-hyperlink:hover {
-  color: #0076a5;
+  color: #ab0c2f;
   text-decoration: none;
   /* font-family: "Helvetica", sans-serif; */
 }
@@ -250,11 +250,10 @@
 }
 
 .cv p::selection {
-  color: #0076a5;
+  color: #8963BA;
 }
 
 .about {
-  /* width: 60%; */
   margin-top: 8%;
   color: #cfcfcf;
   font-family: "Montserrat", sans-serif;
@@ -262,11 +261,10 @@
 }
 
 .about p::selection {
-  color: #0076a5;
+  color: #8963BA;
 }
 
 .side-section {
-  /* width: 33%; */
   margin-top: 8%;
   color: #cfcfcf;
   font-family: "Montserrat", sans-serif;
@@ -285,11 +283,11 @@
 }
 
 .connect a::selection {
-  color: #0076a5;
+  color: #8963BA;
 }
 
 .connect p::selection {
-  color: #0076a5;
+  color: #8963BA;
 }
 
 .email {
@@ -297,17 +295,19 @@
   border: none;
   padding: 0 !important;
   cursor: pointer;
-  /* overflow: hidden; */
   outline: none;
   color: #cfcfcf;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  /* font-size: 16px; */
   margin: 0;
 }
 
 .email::selection {
-  color: #0076a5;
+  color: #8963BA;
+}
+
+.email:hover {
+  color: #8963BA;
 }
 
 .social::after {
@@ -315,4 +315,19 @@
   display: inline-block;
   margin-left: 5px;
   font-family: "Montserrat", sans-serif;
+  position: relative;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  width: 10px;
+}
+
+.social:hover {
+  color: #8963BA;
+}
+
+.social:hover:after {
+  opacity: 1;
+  transform: translate(3px,-3px);
+  -webkit-transform: translate(3px,-3px);
+  color: #8963BA;
 }
