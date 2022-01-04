@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/website-revamp/static/css/main.17a86478.chunk.css",
+    "main.js": "/website-revamp/static/js/main.f7b0b93d.chunk.js",
+    "main.js.map": "/website-revamp/static/js/main.f7b0b93d.chunk.js.map",
+    "runtime-main.js": "/website-revamp/static/js/runtime-main.8a71ddd0.js",
+    "runtime-main.js.map": "/website-revamp/static/js/runtime-main.8a71ddd0.js.map",
+    "static/js/2.bf592b71.chunk.js": "/website-revamp/static/js/2.bf592b71.chunk.js",
+    "static/js/2.bf592b71.chunk.js.map": "/website-revamp/static/js/2.bf592b71.chunk.js.map",
+    "index.html": "/website-revamp/index.html",
+    "precache-manifest.eaf8484379bf6470792fa13d7845a274.js": "/website-revamp/precache-manifest.eaf8484379bf6470792fa13d7845a274.js",
+    "service-worker.js": "/website-revamp/service-worker.js",
+    "static/css/main.17a86478.chunk.css.map": "/website-revamp/static/css/main.17a86478.chunk.css.map",
+    "static/js/2.bf592b71.chunk.js.LICENSE.txt": "/website-revamp/static/js/2.bf592b71.chunk.js.LICENSE.txt",
+    "static/media/resume.pdf": "/website-revamp/static/media/resume.e38ab0fb.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a71ddd0.js",
+    "static/js/2.bf592b71.chunk.js",
+    "static/css/main.17a86478.chunk.css",
+    "static/js/main.f7b0b93d.chunk.js"
+  ]
+}
