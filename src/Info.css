@@ -227,7 +227,7 @@
 }
 
 .intext-hyperlink:hover {
-  color: #ab0c2f;
+  color: #016FD0;
   text-decoration: none;
 }
 
@@ -327,10 +327,11 @@
 }
 
 .about-intext-hyperlink {
-  color: #8963BA;
+  color: #cfcfcf;
   text-decoration: none;
 }
 
 .about-intext-hyperlink:hover {
-  border-bottom: 2px solid #8963BA;
+  color: #8963BA;
+  /* border-bottom: 2px solid #8963BA; */
 }
