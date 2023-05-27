@@ -58,9 +58,9 @@ export default function NavigationBar() {
             <Link to="/projects" className="NavLink-mobile" onClick={closeHamburgerMenu}>
               Projects
             </Link>
-            {/* <Link to="/journal" className="NavLink-mobile" onClick={closeHamburgerMenu}>
+            <Link to="/journal" className="NavLink-mobile" onClick={closeHamburgerMenu}>
               Journal
-            </Link> */}
+            </Link>
             <Link to={Resume} target="newTab" className="NavLink-mobile" onClick={closeHamburgerMenu}>
               Resume
             </Link>
@@ -78,9 +78,9 @@ export default function NavigationBar() {
             <Link to="/projects" className="NavLink">
               Projects
             </Link>
-            {/* <Link to="/journal" className="NavLink">
+            <Link to="/journal" className="NavLink">
               Journal
-            </Link> */}
+            </Link>
             <Link to={Resume} target="newTab" className="NavLink">
               Resume
             </Link>
