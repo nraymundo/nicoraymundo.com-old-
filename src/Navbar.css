@@ -114,11 +114,11 @@
 }
 
 .logo::selection {
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .logo:hover {
-  color: #8963BA;
+  color: #f77f00;
   text-decoration: none;
 }
 
@@ -164,15 +164,15 @@
 }
 
 .NavLink-mobile:hover {
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .NavLink::selection {
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .NavLink:hover {
   margin-bottom: -2px !important;
   text-decoration: none;
-  border-bottom: 2px solid #8963BA;
+  border-bottom: 2px solid #f77f00;
 }

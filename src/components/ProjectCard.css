@@ -26,7 +26,7 @@
 }
 
 .title::selection{
-  color: #8963BA;
+  color: #cfcfcf;
 }
 
 .description {
@@ -34,7 +34,7 @@
 }
 
 .description::selection{
-  color: #8963BA;
+  color: #cfcfcf;
 }
 
 .extra-info {
@@ -50,10 +50,10 @@
 .technologies h1 {
   font-size: 15px;
   margin-right: 10px;
-  color: #8963BA;
+  color: #cfcfcf;
 }
 
 .repo:hover {
-  fill: #8963BA;
+  fill: #f77f00;
   cursor: pointer;
 }

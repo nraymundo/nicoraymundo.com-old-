@@ -214,7 +214,7 @@
 }
 
 .intro-content::selection {
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .intext-hyperlink {
@@ -223,11 +223,11 @@
 }
 
 .intext-hyperlink::selection {
-  color: #8963BA;
+  color: #016FD0;
 }
 
 .intext-hyperlink:hover {
-  color: #ab0c2f;
+  color: #016FD0;
   text-decoration: none;
 }
 
@@ -245,7 +245,7 @@
 }
 
 .cv p::selection {
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .about {
@@ -256,7 +256,7 @@
 }
 
 .about p::selection {
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .side-section {
@@ -278,11 +278,11 @@
 }
 
 .connect a::selection {
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .connect p::selection {
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .email {
@@ -298,11 +298,11 @@
 }
 
 .email::selection {
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .email:hover {
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .social::after {
@@ -317,20 +317,25 @@
 }
 
 .social:hover {
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .social:hover:after {
   transform: translate(3px,-3px);
   -webkit-transform: translate(3px,-3px);
-  color: #8963BA;
+  color: #f77f00;
 }
 
 .about-intext-hyperlink {
-  color: #8963BA;
+  color: #cfcfcf;
   text-decoration: none;
 }
 
 .about-intext-hyperlink:hover {
-  border-bottom: 2px solid #8963BA;
+  color: #f77f00;
+  /* border-bottom: 2px solid #8963BA; */
+}
+
+.about-intext-hyperlink::selection {
+  color: #f77f00;
 }

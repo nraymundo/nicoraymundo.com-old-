@@ -1,7 +1,7 @@
 import React from "react";
 import "./Journal.css";
 
-import imgs from './images/Images'
+import imgs from './Images/Images'
 import Entry from './components/JournalEntry'
 
 const entries = [
