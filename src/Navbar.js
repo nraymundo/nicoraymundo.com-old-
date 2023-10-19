@@ -78,6 +78,9 @@ export default function NavigationBar() {
             <Link to="/projects" className="NavLink">
               Projects
             </Link>
+            {/* <Link to="/test" className="NavLink">
+              Test
+            </Link> */}
             <Link to="/journal" className="NavLink">
               Journal
             </Link>

@@ -7,7 +7,7 @@ export default function Info() {
     <div className="main-paragraph">
       <p className="intro-content">
         Nico Raymundo is a developer and casual photographer from the San Francisco Bay
-        Area, currently in Los Angeles and at{" "}
+        Area, currently in New York City and at{" "}
         <a class="intext-hyperlink" href="http://americanexpress.com" target="_blank">
           American Express
         </a>
@@ -39,12 +39,12 @@ export default function Info() {
             community, with our biggest event being the first ever LMU Hackathon.
           </p>
           <p>
-            Outside of school, I enjoy playing sports with friends, taking photos around the city,
+            Outside of school, I enjoy playing sports with friends, taking photos and walking around the city,
             listening to {" "}
             <a class="about-intext-hyperlink" href="https://open.spotify.com/user/kdotoverlord?si=b932916d03cf4b81" target="_blank">
               music
             </a>
-            , working on my side projects, or going on runs and exploring the area around me.
+            , working on my side projects, or going on runs in Central Park.
           </p>
           <p>I'd love to get to know you, so don't hesitate to get in touch!</p>
         </div>
@@ -54,7 +54,7 @@ export default function Info() {
             <p>
               American Express
               <br />
-              Engineer III
+              Engineer II
               <br />
               2021 - Present
             </p>
