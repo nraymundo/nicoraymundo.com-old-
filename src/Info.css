@@ -214,7 +214,7 @@
 }
 
 .intro-content::selection {
-  color: #f77f00;
+  color: #996888;
 }
 
 .intext-hyperlink {
@@ -245,7 +245,7 @@
 }
 
 .cv p::selection {
-  color: #f77f00;
+  color: #71A2B6;
 }
 
 .about {
@@ -256,7 +256,7 @@
 }
 
 .about p::selection {
-  color: #f77f00;
+  color: #996888;
 }
 
 .side-section {
@@ -278,11 +278,11 @@
 }
 
 .connect a::selection {
-  color: #f77f00;
+  color: #F4B860;
 }
 
 .connect p::selection {
-  color: #f77f00;
+  color: #F4B860;
 }
 
 .email {
@@ -298,11 +298,11 @@
 }
 
 .email::selection {
-  color: #f77f00;
+  color: #F4B860;
 }
 
 .email:hover {
-  color: #f77f00;
+  color: #996888;
 }
 
 .social::after {
@@ -317,13 +317,13 @@
 }
 
 .social:hover {
-  color: #f77f00;
+  color: #996888;
 }
 
 .social:hover:after {
   transform: translate(3px,-3px);
   -webkit-transform: translate(3px,-3px);
-  color: #f77f00;
+  color: #996888;
 }
 
 .about-intext-hyperlink {
@@ -332,10 +332,10 @@
 }
 
 .about-intext-hyperlink:hover {
-  color: #f77f00;
+  color: #996888;
   /* border-bottom: 2px solid #8963BA; */
 }
 
 .about-intext-hyperlink::selection {
-  color: #f77f00;
+  color: #996888;
 }

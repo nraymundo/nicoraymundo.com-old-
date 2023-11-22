@@ -6,9 +6,9 @@ export default function Info() {
   return (
     <div className="main-paragraph">
       <p className="intro-content">
-        Nico Raymundo is a developer and casual photographer from the San Francisco Bay
+        Nico Raymundo is a software developer from the San Francisco Bay
         Area, currently in New York City and at{" "}
-        <a class="intext-hyperlink" href="http://americanexpress.com" target="_blank">
+        <a class="intext-hyperlink" href="http://americanexpress.com" target="_blank" rel="noopener noreferrer">
           American Express
         </a>
         .
@@ -41,7 +41,12 @@ export default function Info() {
           <p>
             Outside of school, I enjoy playing sports with friends, taking photos and walking around the city,
             listening to {" "}
-            <a class="about-intext-hyperlink" href="https://open.spotify.com/user/kdotoverlord?si=b932916d03cf4b81" target="_blank">
+            <a
+              class="about-intext-hyperlink"
+              href="https://open.spotify.com/user/kdotoverlord?si=b932916d03cf4b81"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               music
             </a>
             , working on my side projects, or going on runs in Central Park.
@@ -102,6 +107,7 @@ export default function Info() {
                 className="social"
                 href="https://www.instagram.com/nicoraymundo/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Instagram
               </a>
@@ -111,6 +117,7 @@ export default function Info() {
                 className="social"
                 href="https://twitter.com/nicoraymundo2"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 Twitter
               </a>
@@ -120,6 +127,7 @@ export default function Info() {
                 className="social"
                 href="https://github.com/nraymundo"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 GitHub
               </a>
@@ -129,6 +137,7 @@ export default function Info() {
                 className="social"
                 href="https://www.linkedin.com/in/nicolasraymundo/"
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 LinkedIn
               </a>

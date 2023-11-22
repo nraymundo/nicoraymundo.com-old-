@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import NavigationBar from "./Navbar";
 import { Route } from "react-router-dom";
 import Info from "./Info";
